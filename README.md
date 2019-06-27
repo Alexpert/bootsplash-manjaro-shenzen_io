@@ -8,7 +8,7 @@ Kernel Bootsplash theme for manjaro Linux using Shenzen I/O loading screen logo
 - run `makepkg` to create Arch package and install it with `pacman -U $package_name`
 - append `bootsplash-manjaro-shenzen_io` hook in the end of HOOKS string of `/etc/mkinitcpio.conf`
 - add `bootsplash.bootfile=bootsplash-themes/manjaro-shenzen_io/bootsplash` into `GRUB_CMDLINE_LINUX` string in `/etc/default/grub`
-- run `sudo mkinitcpio -P` (or linux416)
+- run `sudo mkinitcpio -P`
 - run `sudo update-grub`
 
 # Nota Bene
